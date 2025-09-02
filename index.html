@@ -1,213 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSCI 6444/4907 – Big Data & Analytics</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCI 6444/4907 – Big Data & Analytics</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-  <!-- Navbar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">CSCI 6444</div>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="index.html" class="active">General Info</a></li>
-        <li><a href="grading.html">Assignments & Grading</a></li>
-        <li><button id="modeToggle">🌙</button></li>
-      </ul>
-      <div class="hamburger" id="hamburger">&#9776;</div>
-    </nav>
-  </header>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><strong>CSCI 6444 / 4907</strong></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">General Info</a></li>
+                <li><a href="grading.html">Assignments & Grading</a></li>
+                <li><button id="modeToggle">🌙</button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+        </nav>
+    </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h1>Introduction to Big Data & Analytics</h1>
-    <p>George Washington University · Fall 2025</p>
-  </section>
-
-  <main>
-    <!-- Instructor & GA -->
-  <section>
-    <h2>Course Staff</h2>
-    <p><strong>Instructor:</strong> Prof. Roozbeh Haghnazar  
-       (<a href="mailto:Roozbeh.haghnazar@gmail.com">Roozbeh.haghnazar@gmail.com</a> | 
-        <a href="mailto:roozbeh@gwu.edu">roozbeh@gwu.edu</a>)</p>
-    <p><strong>Graduate Assistant:</strong> Jugal Gajjar  
-       (<a href="mailto:jugal.gajjar@gwmail.gwu.edu">jugal.gajjar@gwmail.gwu.edu</a>)</p>
-  </section>
-
-    <!-- Course Description -->
-    <section>
-      <h2>Course Description</h2>
-      <p>In this Big Data and Analytics course at George Washington University, students will embark on an interdisciplinary 
-        journey to unlock the potential of large-scale data sets. Leveraging cutting-edge tools and methodologies, 
-        the course covers the complete data lifecycle, from data acquisition and storage to analysis and visualization. 
-        Designed to equip students with both theoretical knowledge and practical skills, the course delves into real-world 
-        applications, ranging from business decision-making to scientific research. 
-        With an emphasis on critical thinking and collaboration, students will leave the course prepared to translate complex 
-        data into actionable insights.</p>
+    <!-- Hero -->
+    <section class="hero">
+        <h1>CSCI 6444 / 4907 – Introduction to Big Data & Analytics</h1>
+        <p>George Washington University · Fall 2025</p>
     </section>
 
-    <!-- Course Objectives -->
-    <section>
-      <h2>Course Objectives</h2>
-      <ul>
-        <li><b>Data Comprehension:</b> Equip students with the skills to identify, interpret, and analyze large datasets, 
-            understanding their structure, limitations, and potential uses.</li>
-        <li><b>Tool Proficiency:</b> Familiarize students with leading big data tools and technologies, such as Hadoop, 
-            S3 Bucket, and various data storage solutions.</li>
-        <li><b>Analytical Methods:</b> Introduce key algorithms and statistical methods essential for data analysis, 
-            including machine learning techniques and predictive analytics.</li>
-        <li><b>Data Ethics:</b> Instill a strong understanding of ethical considerations in data collection, storage, and 
-            analysis, including issues of privacy, bias, and data integrity.</li>
-        <li><b>Real-world Applications:</b> Engage students in case studies and projects that simulate real-world challenges, 
-            thereby bridging the gap between theory and practice.</li>
-        <li><b>Collaborative Skills:</b> Promote teamwork and interdisciplinary thinking through group projects and 
-            discussions, preparing students for collaborative roles in a professional setting.</li>
-        <li><b>Communication:</b> Develop students’ ability to effectively convey their findings, both written and orally and 
-            to translate complex data analytics into understandable insights for a broader audience.</li>
-        <li><b>Critical Thinking:</b> Encourage students to think critically about data, questioning its sources, relevance, and potential impacts when making analytical decisions.</li>
-      </ul>
-    </section>
+    <main>
+        <!-- Instructor & GA -->
+        <section>
+            <h2>Course Staff</h2>
+            <p><strong>Instructor:</strong> Prof. Roozbeh Haghnazar
+                (<a href="mailto:Roozbeh.haghnazar@gmail.com">Roozbeh.haghnazar@gmail.com</a> |
+                <a href="mailto:roozbeh@gwu.edu">roozbeh@gwu.edu</a>)
+            </p>
+            <p><strong>Graduate Assistant:</strong> Jugal Gajjar
+                (<a href="mailto:jugal.gajjar@gwmail.gwu.edu">jugal.gajjar@gwmail.gwu.edu</a>)</p>
+        </section>
 
-    <!-- Prerequisites -->
-    <section>
-      <h2>Prerequisites</h2>
-      <p>CSCI 6212 (Design and Analysis of Algorithms) and CSCI 3411 (Operating Systems).</p>
-    </section>
+        <!-- Time and Location -->
+        <section>
+            <h2>Time and Location</h2>
+            <p><strong>Time:</strong> 18:10 to 20:40 Mondays</p>
+            <p><strong>Location:</strong> Room No. 250, Duques Hall, 2201 G St NW, Washington, DC 20052</p>
+        </section>
 
-    <!-- Course References -->
-    <section>
-      <h2>Course References</h2>
-      <p><strong>Required:</strong></p>
-      <ul>
-        <li>M.L. Rampolla, <em>A Short Guide to Writing in History</em>, 9th Ed. (2014). St. Martin’s Press.  
-        ISBN: 0312403577 (or later).  
-        <a href="https://www.amazon.com/Pocket-Guide-Writing-History/dp/1319113028" target="_blank">
-          Available on Amazon
-        </a></li>
-      </ul>
-      <p><strong>Optional:</strong></p>
-      <ul>
-        <li>Data Science, Big Data, and NoSQL books (PDFs and references as provided in class).</li>
-        <li>Published papers cited in weekly lecture slides.</li>
-      </ul>
-      <p><strong>Note: </strong>Rampolla’s book contains the rules for writing good term papers. I have used it for over 
-        25 years through various editions. When I grade your term papers for spelling, usage, structure, etc., I will be 
-        using Rampolla as the key reference. So, I strongly recommend that you buy this book and read it. There is NO excuse 
-        for a poorly written paper at the Upper Undergraduate/Graduate Level!</p>
-    </section>
+        <!-- Course Description -->
+        <section>
+            <h2>Course Description</h2>
+            <p align="justify">In this Big Data and Analytics course at George Washington University, students will embark on an
+                interdisciplinary
+                journey to unlock the potential of large-scale data sets. Leveraging cutting-edge tools and
+                methodologies,
+                the course covers the complete data lifecycle, from data acquisition and storage to analysis and
+                visualization.
+                Designed to equip students with both theoretical knowledge and practical skills, the course delves into
+                real-world
+                applications, ranging from business decision-making to scientific research.
+                With an emphasis on critical thinking and collaboration, students will leave the course prepared to
+                translate complex
+                data into actionable insights.</p>
+        </section>
 
-    <!-- Course Roadmap -->
-    <section>
-      <h2>Course Roadmap</h2>
-      <div class="table-container">
-        <table>
-          <thead>
-            <tr>
-              <th>Week</th>
-              <th>Topic</th>
-              <th>Notes / Deadlines</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>1</td><td>Introduction to Big Data</td><td>–</td></tr>
-            <tr><td>2</td><td>Types of Data and Data Collection</td><td>–</td></tr>
-            <tr><td>3</td><td>Gen AI and Big Data</td><td>How to prevent large language models like GPT from hallucinating?</td></tr>
-            <tr><td>4</td><td>Big Data Storage & Databases</td><td>Assignment 1 – Final project topic definition due & Team creation</td></tr>
-            <tr><td>5</td><td>Cloud Computing & Big Data Platforms and Services</td><td>Final project literature review due</td></tr>
-            <tr><td>6</td><td>Descriptive & Inferential Data Analysis</td><td>–</td></tr>
-            <tr><td>7</td><td>Big Data on Cloud</td><td>Assignment 2 – Final project system design due (UML design)</td></tr>
-            <tr><td>8</td><td>Data Preprocessing – Model Selection & Tuning</td><td>–</td></tr>
-            <tr><td>9</td><td>Invited Lecturer</td><td>–</td></tr>
-            <tr><td>10</td><td>Advanced Data Analysis Techniques</td><td>–</td></tr>
-            <tr><td>11</td><td>Graph Data, Graph Analysis & Graph ML</td><td>–</td></tr>
-            <tr><td>12</td><td>Machine Learning & Big Data – Scalable ML, interpretability & fairness</td><td>Assignment 3 (Optional)</td></tr>
-            <tr><td>13</td><td>Data Visualization Tools</td><td>–</td></tr>
-            <tr><td>–</td><td>Final Project Due</td><td>–</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+        <!-- Course Objectives -->
+        <section>
+            <h2>Course Objectives</h2>
+            <ul align="justify">
+                <li><b>Data Comprehension:</b> Equip students with the skills to identify, interpret, and analyze large
+                    datasets,
+                    understanding their structure, limitations, and potential uses.</li>
+                <li><b>Tool Proficiency:</b> Familiarize students with leading big data tools and technologies, such as
+                    Hadoop,
+                    S3 Bucket, and various data storage solutions.</li>
+                <li><b>Analytical Methods:</b> Introduce key algorithms and statistical methods essential for data
+                    analysis,
+                    including machine learning techniques and predictive analytics.</li>
+                <li><b>Data Ethics:</b> Instill a strong understanding of ethical considerations in data collection,
+                    storage, and
+                    analysis, including issues of privacy, bias, and data integrity.</li>
+                <li><b>Real-world Applications:</b> Engage students in case studies and projects that simulate
+                    real-world challenges,
+                    thereby bridging the gap between theory and practice.</li>
+                <li><b>Collaborative Skills:</b> Promote teamwork and interdisciplinary thinking through group projects
+                    and
+                    discussions, preparing students for collaborative roles in a professional setting.</li>
+                <li><b>Communication:</b> Develop students’ ability to effectively convey their findings, both written
+                    and orally and
+                    to translate complex data analytics into understandable insights for a broader audience.</li>
+                <li><b>Critical Thinking:</b> Encourage students to think critically about data, questioning its
+                    sources, relevance, and potential impacts when making analytical decisions.</li>
+            </ul>
+        </section>
 
-    <!-- University Policies -->
-    <section>
-      <h2>University Policies</h2>
-      <p><strong>University Policy on Religious Holidays</strong>
-        <br>
-        <ol>
-            <li>Students should notify faculty during the first week of the semester of their intention to be absent from 
-                class on their day(s) of religious observance.</li>
-            <li>Faculty should extend to these students the courtesy of absence without penalty on such occasions, including 
-                permission to make up examinations.</li>
-            <li>Faculty who intend to observe a religious holiday should arrange at the beginning of the semester to 
-                reschedule missed classes or make other provisions for their course-related activities.</li>
-      </ol>
-    </p>
-      <p><strong>Support for Students Outside the Classroom</strong>
-        <br>
-        Students can schedule meetings to get a consultation during weekdays and weekends.
-    </p>
-      <p><strong>Disability Support Services (DSS)</strong>
-        <br>
-        Any student who may need an accommodation based on the potential impact of a disability should contact the Disability 
-        Support Services office at 202-994-8250 in Rome Hall, Suite 102, to establish eligibility and to coordinate reasonable 
-        accommodations. For additional information please refer to: 
-        <a href="https://disabilitysupport.gwu.edu/">disabilitysupport.gwu.edu/</a>.
-    </p>
-      <p><strong>Mental Health Services 202-994-5300</strong>
-        <br>
-        The University's Mental Health Services offers 24/7 assistance and referral to address students' personal, social, 
-        career, and study skills problems. Services for students include: crisis and emergency mental health consultations 
-        confidential assessment, counseling services (individual and small group), and referrals. 
-        <a href="https://healthcenter.gwu.edu/counseling-and-psychological-services">counselingcenter.gwu.edu/</a>
-    </p>
-    <p><strong>Academic Integrity Code</strong>
-        <br>
-        Academic dishonesty is defined as cheating of any kind, including misrepresenting one's own work, taking credit for the 
-        work of others without crediting them and without appropriate authorization, and the fabrication of information. For 
-        the remainder of the code, see: 
-        <a href="https://students.gwu.edu/code-academic-integrity">students.gwu.edu/code-academic-integrity/</a>.
-        <br>
-        It is very important in this course (and in life), that your work be your own. These guidelines will help you 
-        achieve that.
-    </p>
-    <p><strong>You must:</strong>
-        <br>
-        <ul>
-            <li>Do your best to solve all homework, quizzes, and exams on your own.</li>
-            <li>Write the names of any students you collaborated with as a comment at the top of your main file 
-                (subject to the constraints below).</li>
-            <li>Notify me if you are using a tutor (this is not a problem, just let me know).</li>
-      </ul>
-    </p>
-    <p><strong>You may:</strong>
-        <br>
-        <ul>
-            <li>Discuss general approaches to solving homework problems with other students.</li>
-            <li>Have another student look at a specific snippet of your code (e.g., 10 lines) to help you debug a programming 
-                error.</li>
-      </ul>
-    </p>
-    <p><strong>You may not:</strong>
-        <br>
-        <ul>
-            <li>Copy code to or from other students or people outside of the class.</li>
-            <li>Have someone else write code for you.</li>
-            <li>Copy code from the internet, unless you specifically reference the source and can explain how it works. 
-                This should be a tiny minority of the code you submit.</li>
-            <li>Write code as a group and then submit identical or slightly modified versions—if you are working together 
-                with someone to solve a problem, each of you should be writing up your own independent solution.</li>
-      </ul>
-    </p>
-    </section>
-  </main>
+        <!-- Prerequisites -->
+        <section>
+            <h2>Prerequisites</h2>
+            <p align="justify">CSCI 6212 (Design and Analysis of Algorithms) and CSCI 3411 (Operating Systems).</p>
+        </section>
 
-  <footer>
-    <p>© 2025 George Washington University – CSCI 6444</p>
-  </footer>
+        <!-- Course References -->
+        <section>
+            <h2>Course References</h2>
+            <p><strong>Required:</strong></p>
+            <ul align="justify">
+                <li>M.L. Rampolla, <em>A Short Guide to Writing in History</em>, 9th Ed. (2014). St. Martin’s Press.
+                    ISBN: 0312403577 (or later).
+                    <a href="https://www.amazon.com/Pocket-Guide-Writing-History/dp/1319113028" target="_blank">
+                        Available on Amazon
+                    </a>
+                </li>
+            </ul>
+            <p><strong>Optional:</strong></p>
+            <ul align="justify">
+                <li>Data Science, Big Data, and NoSQL books (PDFs and references as provided in class).</li>
+                <li>Published papers cited in weekly lecture slides.</li>
+            </ul>
+            <p align="justify"><strong>Note: </strong>Rampolla’s book contains the rules for writing good term papers. I have used it
+                for over
+                25 years through various editions. When I grade your term papers for spelling, usage, structure, etc., I
+                will be
+                using Rampolla as the key reference. So, I strongly recommend that you buy this book and read it. There
+                is NO excuse
+                for a poorly written paper at the Upper Undergraduate/Graduate Level!</p>
+        </section>
 
-  <script src="js/script.js"></script>
+        <!-- Course Roadmap -->
+        <section>
+            <h2>Course Roadmap</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Week</th>
+                            <th>Topic</th>
+                            <th>Notes / Deadlines</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Introduction to Big Data</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Types of Data and Data Collection</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Gen AI and Big Data</td>
+                            <td>How to prevent large language models like GPT from hallucinating?</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Big Data Storage & Databases</td>
+                            <td>Assignment 1 – Final project topic definition due & Team creation</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Cloud Computing & Big Data Platforms and Services</td>
+                            <td>Final project literature review due</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Descriptive & Inferential Data Analysis</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Big Data on Cloud</td>
+                            <td>Assignment 2 – Final project system design due (UML design)</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Data Preprocessing – Model Selection & Tuning</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Invited Lecturer</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Advanced Data Analysis Techniques</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Graph Data, Graph Analysis & Graph ML</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Machine Learning & Big Data – Scalable ML, interpretability & fairness</td>
+                            <td>Assignment 3 (Optional)</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Data Visualization Tools</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>Final Project Due</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- University Policies -->
+        <section>
+            <h2>University Policies</h2>
+            <p><strong>University Policy on Religious Holidays</strong>
+                <br>
+            <ol align="justify">
+                <li>Students should notify faculty during the first week of the semester of their intention to be absent
+                    from
+                    class on their day(s) of religious observance.</li>
+                <li>Faculty should extend to these students the courtesy of absence without penalty on such occasions,
+                    including
+                    permission to make up examinations.</li>
+                <li>Faculty who intend to observe a religious holiday should arrange at the beginning of the semester to
+                    reschedule missed classes or make other provisions for their course-related activities.</li>
+            </ol>
+            </p>
+            <p align="justify"><strong>Support for Students Outside the Classroom</strong>
+                <br>
+                Students can schedule meetings to get a consultation during weekdays and weekends.
+            </p>
+            <p align="justify"><strong>Disability Support Services (DSS)</strong>
+                <br>
+                Any student who may need an accommodation based on the potential impact of a disability should contact
+                the Disability
+                Support Services office at 202-994-8250 in Rome Hall, Suite 102, to establish eligibility and to
+                coordinate reasonable
+                accommodations. For additional information please refer to:
+                <a href="https://disabilitysupport.gwu.edu/">disabilitysupport.gwu.edu/</a>.
+            </p>
+            <p align="justify"><strong>Mental Health Services 202-994-5300</strong>
+                <br>
+                The University's Mental Health Services offers 24/7 assistance and referral to address students'
+                personal, social,
+                career, and study skills problems. Services for students include: crisis and emergency mental health
+                consultations
+                confidential assessment, counseling services (individual and small group), and referrals.
+                <a
+                    href="https://healthcenter.gwu.edu/counseling-and-psychological-services">counselingcenter.gwu.edu/</a>
+            </p>
+            <p align="justify"><strong>Academic Integrity Code</strong>
+                <br>
+                Academic dishonesty is defined as cheating of any kind, including misrepresenting one's own work, taking
+                credit for the
+                work of others without crediting them and without appropriate authorization, and the fabrication of
+                information. For
+                the remainder of the code, see:
+                <a
+                    href="https://students.gwu.edu/code-academic-integrity">students.gwu.edu/code-academic-integrity/</a>.
+                <br>
+                It is very important in this course (and in life), that your work be your own. These guidelines will
+                help you
+                achieve that.
+            </p>
+            <p><strong>You must:</strong>
+                <br>
+            <ul align="justify">
+                <li>Do your best to solve all homework, quizzes, and exams on your own.</li>
+                <li>Write the names of any students you collaborated with as a comment at the top of your main file
+                    (subject to the constraints below).</li>
+                <li>Notify me if you are using a tutor (this is not a problem, just let me know).</li>
+            </ul>
+            </p>
+            <p><strong>You may:</strong>
+                <br>
+            <ul align="justify">
+                <li>Discuss general approaches to solving homework problems with other students.</li>
+                <li>Have another student look at a specific snippet of your code (e.g., 10 lines) to help you debug a
+                    programming
+                    error.</li>
+            </ul>
+            </p>
+            <p><strong>You may not:</strong>
+                <br>
+            <ul align="justify">
+                <li>Copy code to or from other students or people outside of the class.</li>
+                <li>Have someone else write code for you.</li>
+                <li>Copy code from the internet, unless you specifically reference the source and can explain how it
+                    works.
+                    This should be a tiny minority of the code you submit.</li>
+                <li>Write code as a group and then submit identical or slightly modified versions—if you are working
+                    together
+                    with someone to solve a problem, each of you should be writing up your own independent solution.
+                </li>
+            </ul>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 George Washington University – CSCI 6444 / 4907</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>
