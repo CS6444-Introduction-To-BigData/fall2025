@@ -52,13 +52,14 @@ body.dark {
 }
 
 body {
-  padding-top: 70px; /* offset for fixed navbar */
+  padding-top: 6.88%; /* offset for fixed navbar */
 }
 
 .nav-links {
   list-style: none;
   display: flex;
   gap: 1.5em;
+  padding-top: 1.5%;
 }
 
 .nav-actions {
@@ -99,7 +100,7 @@ body {
 /* Hero */
 .hero {
   text-align: center;
-  padding: 3em 1em;
+  padding: 2em 1em;
   background: var(--primary);
   color: #fff;
 }
