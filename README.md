@@ -1,2 +1,1 @@
-# Web Template
-Jekyll based template for GW CS.
+# CS 6444 Introduction to Big Data & Analytics
