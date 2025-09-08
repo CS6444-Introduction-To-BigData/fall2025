@@ -6,8 +6,11 @@
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
+  font-size: 100%;
+  /* 1rem = default browser font size (usually 16px) */
 }
 
 body {
@@ -41,31 +44,35 @@ body.dark {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 2em;
+  padding: 0.8em 1.5em;
+  /* relative padding */
   background: var(--secondary);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 0.15em 0.3em rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
+  height: 3.6em;
+  /* relative height */
 }
 
 body {
-  padding-top: 6.88%; /* offset for fixed navbar */
+  padding-top: 3.6em;
+  /* offset matches navbar height */
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1.5em;
-  padding-top: 1.5%;
+  gap: 1.2em;
+  padding-top: 1.5em;
 }
 
 .nav-actions {
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 0.8em;
 }
 
 .nav-links li a {
@@ -87,14 +94,14 @@ body {
   border: none;
   background: none;
   cursor: pointer;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 /* Hamburger */
 .hamburger {
   display: none;
   cursor: pointer;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 /* Hero */
@@ -106,43 +113,48 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.2em;
+  font-size: 2em;
   margin-bottom: 0.5em;
 }
 
 .hero p {
-  font-size: 1.1em;
+  font-size: 1em;
   color: #f0f0f0;
 }
 
 /* Sections */
 main {
   flex: 1;
-  padding: 2.5em 2em;
-  max-width: 1000px;
+  padding: 2em 1.5em;
+  max-width: 62.5rem;
+  /* ~1000px */
   margin: 0 auto;
 }
 
 h2 {
-  margin: 1.5em 0 0.75em;
+  margin: 1.2em 0 0.6em;
   color: var(--primary);
-  font-size: 1.6em;
-  border-bottom: 2px solid var(--primary);
-  padding-bottom: 0.3em;
+  font-size: 1.4em;
+  border-bottom: 0.15em solid var(--primary);
+  padding-bottom: 0.2em;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
   margin-bottom: 1em;
   color: var(--text);
 }
 
 /* Lists */
-ul, ol {
-  padding-left: 1.5em;
+ul,
+ol {
+  padding-left: 1.2em;
 }
 
-ul li, ol li {
-  margin-bottom: 0.6em;
+ul li,
+ol li {
+  margin-bottom: 0.5em;
   line-height: 1.5;
 }
 
@@ -153,7 +165,7 @@ ul li b {
 /* Tables */
 .table-container {
   overflow-x: auto;
-  margin: 1em 0 2em;
+  margin: 1em 0 1.5em;
 }
 
 table {
@@ -161,13 +173,14 @@ table {
   border-collapse: collapse;
   background: var(--secondary);
   color: var(--text);
-  border-radius: 6px;
+  border-radius: 0.4em;
   overflow: hidden;
 }
 
-table th, table td {
-  border: 1px solid #ccc;
-  padding: 0.9em;
+table th,
+table td {
+  border: 0.07em solid #ccc;
+  padding: 0.7em;
   text-align: left;
   vertical-align: top;
 }
@@ -193,18 +206,22 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 48em) {
+
+  /* ~768px */
   .nav-links {
     display: none;
     flex-direction: column;
     background: var(--secondary);
     padding: 1em;
     position: absolute;
-    top: 60px;
+    top: 3.6em;
+    /* match navbar height */
     right: 0;
-    width: 200px;
-    border-radius: 0 0 8px 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 12.5em;
+    /* ~200px */
+    border-radius: 0 0 0.5em 0.5em;
+    box-shadow: 0 0.15em 0.3em rgba(0, 0, 0, 0.1);
   }
 
   .nav-links.show {
