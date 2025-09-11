@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CSCI 6444 Big Data & Analytics
+title: Big Data & Analytics
 email: roozbeh@gwu.edu, jugal.gajjar@gwu.edu
 author: Roozbeh Haghnazar, Jugal Gajjar
 description: >- # this means to ignore newlines until "baseurl:"
@@ -32,6 +32,13 @@ url: "https://cs6444-introduction-to-bigdata.github.io" # the base hostname & pr
 theme: minima
 plugins:
   - jekyll-feed
+nav:
+  - title: Home
+    url: /fall2025
+  - title: Syllabus
+    url: /fall2025/syllabus/
+  - title: Project
+    url: /fall2025/projects/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
