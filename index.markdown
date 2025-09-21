@@ -19,6 +19,7 @@ layout: home
 > In this Big Data and Analytics course at George Washington University, students will embark on an interdisciplinary journey to unlock the potential of large-scale data sets. Leveraging cutting-edge tools and methodologies, the course covers the complete data lifecycle, from data acquisition and storage to analysis and visualization. Designed to equip students with both theoretical knowledge and practical skills, the course delves into real-world applications, ranging from business decision-making to scientific research. With an emphasis on critical thinking and collaboration, students will leave the course prepared to translate complex data into actionable insights.
 
 ## Announcements ##
+- Office hours can be scheduled on weekends using this [Link](https://calendly.com/roozbeh-haghnazar/office-hour).
 - Check the [Final Project](/fall2025/projects) for details regarding the final semester project.
 - We use Slack to communicate and discuss about the topic, assignments and project. You can join the community using this [Link](https://join.slack.com/t/bigdatafall2025/shared_invite/zt-3czbn3r38-IKaSTG5Lh0MAVWbKEGim0w).
 - Check the [Syllabus](/fall2025/syllabus) for more info.
