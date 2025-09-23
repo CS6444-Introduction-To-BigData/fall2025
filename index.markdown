@@ -88,6 +88,7 @@ All deadlines are 11:59PM Eastern Time
 			<br>09/22/2025
 		</td>
 		<td>
+			<a href="./slides/3-Big Data Storage and Databases.pdf">Lecture Slides</a>
 		</td>
 	</tr>
 	<tr>
