@@ -73,6 +73,7 @@ All deadlines are 11:59PM Eastern Time
 			<br>09/15/2025
 		</td>
 		<td>
+			<a href="./slides/4-Designing a Knowledge Base for Generative AI.pdf">Lecture Slides</a>
 		</td>
 	</tr>
 	<tr>
