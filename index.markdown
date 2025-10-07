@@ -105,6 +105,7 @@ All deadlines are 11:59PM Eastern Time
 			<br>09/29/2025
 		</td>
 		<td>
+			<a href="./slides/5-Cloud Computing and Big Data Platforms.pdf">Lecture Slides</a>
 		</td>
 	</tr>
 	<tr>
