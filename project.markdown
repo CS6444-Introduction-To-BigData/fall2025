@@ -184,7 +184,7 @@ Your final submission **must be made by December 15, 5PM**. However, we will awa
 To submit, complete the following steps:
 - All of your code and written reports should be in your GitHub Repository. The final report should be in the `milestone-4/` folder.
 - Your video should be uploaded using [this form](https://gwu.app.box.com/f/fdea26b01a164cf8af0843f886173d93). You **should not** include your video in your github repository since it is a large file.
-- In consultation with the group members, the leader should prepare a final [Phase Time Sheet](https://gwdistsys2023.github.io/DistributedSystem/project/phase-n-time-sheet.xlsx) and save it as `milestone-4/phase-4-time-sheet.xlsx`
+- In consultation with the group members, the leader should prepare a final [Phase Time Sheet](https://docs.google.com/spreadsheets/d/1Ft1lrEQ1RhlnqZc8Tol6lBorABpHBiMd2dwUsjOPjmg/edit?usp=sharing) and save it as `milestone-4/phase-4-time-sheet.xlsx`
 - When the above steps are complete, create an issue in your repository and **Assign** it to the instructor to notify that you are ready for grading. Include a link to your final report in your issue.
 
 After that, have a great break and a successful future building big data! We hope you have enjoyed the semester and learned a lot!
