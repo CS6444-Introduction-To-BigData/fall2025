@@ -119,6 +119,7 @@ All deadlines are 11:59PM Eastern Time
 			<br>10/06/2025
 		</td>
 		<td>
+			<a href="./slides/6-Introduction to Data Analytics.pdf">Lecture Slides</a>
 		</td>
 	</tr>
 	<tr>
