@@ -25,7 +25,7 @@ For your final project, you will investigate a research challenge in Big Data. W
 - [Milestone 1: Select a Topic](#milestone-1-select-a-topic) - 10/02 (10 points)
 - [Milestone 2: Literature Survey](#milestone-2-literature-review) - 10/13 (20 points)
 - [Milestone 3: Design Document](#milestone-3-design-document) - 11/03 (20 points)
-- [Milestone 4: Final Presentation](#milestone-4-final-report) - 12/15 (50 points)
+- [Milestone 4: Final Presentation](#milestone-4-final-report) - 12/20 (50 points)
 
 ---
 
