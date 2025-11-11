@@ -225,6 +225,7 @@ All deadlines are 11:59PM Eastern Time
 			<br>12/01/2025
 		</td>
 		<td>
+			<a href="./slides/7-Data Visualization.pdf">Lecture Slides</a>
 		</td>
 	</tr>
 	<tr>
